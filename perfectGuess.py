@@ -4,7 +4,7 @@
 import random
 
 def compareGuess(n,c):
-    g=int(input("Enter your guess(1,100): ") )
+    g=int(input("Enter your guess(1,10): ") )
     if g>n: 
         print("Please enter a smaller no.")
         return 0
